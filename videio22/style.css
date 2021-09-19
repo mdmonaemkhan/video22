@@ -1,0 +1,270 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.min-section-bg{
+    background: #f7f9ff;
+}
+.navbar-light .navbar-brand {
+    
+    font-size: 25px;
+    font-weight: 500;
+}
+.navbar-light span {
+    display: inline-block;
+    background: #6278df;
+    color: white;
+    height: 43px;
+    width: 39px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 28px;
+    position: relative;
+    top: 3px;
+}
+.mamun .nav-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+}
+
+.mamun li ul{
+    display: none;
+}
+.mamun li:hover ul{
+    display: block;
+}
+
+/* slider section */
+
+.slider-section{
+    background: url(./img/mbr-10.jpg) no-repeat center center ;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.376);
+    z-index: -1;
+}
+
+.slider-caption h4{
+    font-size: 25px;
+    padding: 40px 0;
+}
+
+.slider-batton{
+    width: 88%;
+    padding: 10px 0;
+    background-color: #5ba533;
+    border-color: #5ba533;
+    color: #ffffff;
+}
+.slider-batton:hover {
+    background-color: white;
+    color: #6278df;
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+
+/* about */
+.about-section{
+    background: #f7f9ff ;
+}
+
+.about-text-left{
+    margin-top: 120px;
+}
+.about-text-left .lead{
+    font-size: 25px;
+    line-height: 2.6rem;
+}
+
+/* kjhkh */
+.futher-item{
+    height: 300px;
+    box-shadow:2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.left-img-src{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+   
+}
+.right-text-src{
+    width: 60%;
+    padding: 25px;
+}
+
+.left-img-src img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -50px;
+    
+}
+
+/* protfoli hover */
+
+
+.protfoli-item a{
+    position: relative;
+    display: block
+}
+.protfoli-item a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(82, 96, 168,.7);
+    opacity: 0;
+    visibility: hidden;
+
+}
+.protfoli-item a:hover::after{
+    opacity: 1;
+    visibility: visible;
+    transition: .7s;
+}
+
+/* prising item */
+
+.prising-item{
+    background: #ffff;
+    padding: 50px;
+    box-shadow:2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    border-radius: 5px;
+}
+
+.prising-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+.prising-item ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #777;
+}
+.prising-item ul li span{
+    color: #6278df;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40px;
+    display: inline-block;
+}
+.prising-item:hover .prising-item-button a{
+    background: #6278df;
+    color: white;
+    transition: .7s;
+}
+.prising-item-button a{
+    border: none;
+    color: #6278df;
+    padding: 14px 30px;
+    font-size: 23px;
+    box-shadow:2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+
+.prising-item .prising-item-button a:hover{
+    background: #000;
+    transition: .7s;
+}
+
+
+/* testrimonial */
+
+.auther-info{
+    width: 250px;
+    margin: auto;
+    position: relative;
+}
+.auther-info img{
+    height: 80px;
+    margin-right: 15px;
+}
+.user-info{
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+.textrimonial-item span{
+    
+    font-size: 75px;
+    color: rgba(119, 119, 119, 0.116);
+    
+}
+
+/* about item */
+
+.about-item{
+    margin-top: 90px;
+}
+
+.about-item .card img{
+    width: 130px;
+    height: auto;
+    margin-top: -72px;
+    margin-left: 15px;
+}
+
+.about-item a{
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow:2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.about-item a:hover{
+    background: #000;
+    transition: .7s;
+    color: white;
+    border-radius: 10px;
+}
+
+
+/* contact section */
+.contac-form-section .card{
+    box-shadow:2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    padding: 40px;
+
+}
+.contac-form-section button{
+    background: #6278df;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    margin-top: 25px;
+    
+}
+.contac-form-section button:hover{
+    background:white;
+    color: #6278df;
+    transition: .7s;
+    border: 3px solid #6278df !important;
+}
+
+.android a{
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+
